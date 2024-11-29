@@ -1,0 +1,195 @@
+/* إعدادات الخطوط والمظهر العام */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    direction: rtl;
+}
+
+/* رأس الصفحة */
+header {
+    background-color: #2d3e50;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #f8b400;
+}
+
+/* منطقة البطل (Hero) */
+.hero {
+    background-color: #00695c;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background-color: #f8b400;
+    color: #00695c;
+    padding: 12px 30px;
+    border: none;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: #ffa000;
+}
+
+/* قسم عن الموقع */
+.about {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+}
+
+/* خدماتنا */
+.services {
+    background-color: #e0f7fa;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.service-card {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.service-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    font-size: 16px;
+}
+
+/* قسم الاتصال */
+.contact {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact form label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.contact form input, .contact form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.contact form button {
+    background-color: #00695c;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.contact form button:hover {
+    background-color: #004d40;
+}
+
+/* تذييل الصفحة */
+footer {
+    background-color: #2d3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 16px;
+}
